@@ -1,12 +1,14 @@
-██████╗ ███████╗███╗   ██╗████████╗██╗███╗   ██╗███████╗██╗     
+הנה קובץ README.md מעודכן ומלא באנגלית, מוכן להעתקה ל-GitHub, כולל לוגו ASCII אופציה 2 והוראות ההרצה המדויקות (npm install ו-npm run dev בפורט 3000):
+
+Markdown
+```text
+ ██████╗ ███████╗███╗   ██╗████████╗██╗███╗   ██╗███████╗██╗     
 ██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝██║████╗  ██║██╔════╝██║     
 ███████╗ █████╗  ██╔██╗ ██║   ██║   ██║██╔██╗ ██║█████╗  ██║     
 ╚════██╗ ██╔══╝  ██║╚██╗██║   ██║   ██║██║╚██╗██║██╔══╝  ██║     
 ███████║ ███████╗██║ ╚████║   ██║   ██║██║ ╚████║███████╗███████╗
 ╚══════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
  ───[ H O N E Y  -  P O R T A L  //  C Y B E R - S O C ]───
-Here is the English version of the README.md file for your repository:
-
 🍯 Sentinel Honey-Portal & Cyber-SOC Control System
 v3.1-STABLE | Control Center & Threat Monitoring Simulation
 
@@ -25,7 +27,7 @@ The portal presents a fake login interface for an enterprise finance system ("Ka
 
 🎯 Attack Simulator: A built-in module for simulating attack scenarios to validate detection mechanisms.
 
-🔒 Lock Screen & Control Controls: Ability to lock the SOC dashboard interface, as well as reset or load demo dataset for testing.
+🔒 Lock Screen & Control Controls: Ability to lock the SOC dashboard interface, reset data, or load a demo dataset for testing.
 
 🔍 Brute Force Detection Logic (Pattern Analysis Algorithm)
 The SOC system continuously executes real-time NoSQL queries to detect anomalous attack patterns:
@@ -53,6 +55,35 @@ Backend / Database: Node.js, NoSQL Database Engine (Express / LocalStorage / Mon
 
 Network & Security Simulation: SSL Verification Simulation, IP Geolocation Mapping, User-Agent Parsing.
 
+💻 Getting Started & Installation
+Follow these steps to run the project locally on your machine.
+
+Prerequisites
+Node.js (v16.x or higher)
+
+npm (comes bundled with Node.js)
+
+Step-by-Step Setup
+Clone the repository:
+
+Bash
+git clone [https://github.com/your-username/sentinel-honey-portal.git](https://github.com/your-username/sentinel-honey-portal.git)
+cd sentinel-honey-portal
+Install dependencies:
+
+Bash
+npm install
+Start the development server:
+
+Bash
+npm run dev
+Access the application:
+Once started, the application will run on port 3000:
+
+Honey-Portal (Attacker Decoy): http://localhost:3000
+
+SOC Control Dashboard: http://localhost:3000/soc-admin
+
 📸 System Overview
 1. Honey-Portal Login Interface
 Credential capture interface facing potential attackers:
@@ -68,34 +99,8 @@ Metrics: Total login attempts, attacking IPs, targeted usernames, and Brute Forc
 
 Live Logs: Detailed view of access attempts with automated threat tags (NORMAL / BRUTE_FORCE).
 
-💻 Getting Started
-Prerequisites
-Node.js (v16 or higher)
-
-Modern Web Browser (Chrome, Firefox, Edge)
-
-Installation
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/sentinel-honey-portal.git
-cd sentinel-honey-portal
-Install dependencies:
-
-Bash
-npm install
-Run the application:
-
-Bash
-npm start
-Access the interfaces:
-
-Honey-Portal (Attacker decoy): http://localhost:3000
-
-SOC Control Dashboard: http://localhost:3000/soc-admin
-
 🧪 Running Attack Simulations
-Access the SOC Control Dashboard.
+Access the SOC Control Dashboard at http://localhost:3000.
 
 Click on "Attack Simulator" or "Load Demo Data".
 
@@ -103,5 +108,3 @@ Observe log entries transition from NORMAL to BRUTE_FORCE once 3 or more login a
 
 ⚠️ Disclaimer
 This project was developed strictly within a controlled lab environment (Sentinel Security Lab) for educational, research, and defensive threat hunting demonstrations. It should not be deployed in unauthorized environments.
-
-© 2026 Sentinel Industries. All Rights Reserved.
