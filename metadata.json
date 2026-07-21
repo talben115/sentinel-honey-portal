@@ -1,0 +1,6 @@
+{
+  "name": "Sentinel Honey-Portal",
+  "description": "פלטפורמת ניטור והקמת מלכודות דבש ארגוניות המדמה התקפות בזמן אמת וניתוח איומים",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

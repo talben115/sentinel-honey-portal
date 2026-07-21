@@ -1,0 +1,26 @@
+[
+  {
+    "id": "log_cw9zsdwrl",
+    "timestamp": "2026-07-17T08:32:15.328Z",
+    "ip": "185.220.101.5",
+    "internalIp": "10.0.12.3",
+    "username": "nana",
+    "password": "nananana",
+    "userAgent": "Mozilla/5.0 (compatible; CrawlerBot/2.1; +http://sentinel.co.il/bot)",
+    "browser": "Crawler Bot",
+    "os": "Unknown OS",
+    "flags": []
+  },
+  {
+    "id": "log_pgiiu4j5f",
+    "timestamp": "2026-07-17T08:32:25.565Z",
+    "ip": "185.220.101.5",
+    "internalIp": "10.0.12.3",
+    "username": "nana",
+    "password": "nananananananana",
+    "userAgent": "Mozilla/5.0 (compatible; CrawlerBot/2.1; +http://sentinel.co.il/bot)",
+    "browser": "Crawler Bot",
+    "os": "Unknown OS",
+    "flags": []
+  }
+]
